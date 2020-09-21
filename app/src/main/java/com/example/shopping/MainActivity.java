@@ -2,6 +2,7 @@ package com.example.shopping;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.LinearLayout;
 
 import androidx.annotation.Nullable;
@@ -10,6 +11,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.viewpager.widget.ViewPager;
 
+import com.example.mylibrary.LogUtils;
 import com.example.shopping.ui.classfly.ClassflyFragment;
 import com.example.shopping.ui.home.HomeFragment;
 import com.example.shopping.ui.me.MeFragment;
